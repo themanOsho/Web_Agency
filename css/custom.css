@@ -22,11 +22,6 @@ div{
     background: darkslategray;
     border-radius: 2px;
   }
-.sticky{
-    position: sticky;
-    top: 0;
-    background-color: chocolate;
-}
 /* Custom display on Smartphones */
 @media screen and (max-width: 767px) {
     .slide-container{
