@@ -76,15 +76,27 @@ div{
     }
     /* Services */
     .services h1{
-        font-size: x-small;
+        font-size: small;
     }
     .services p{
         font-size: xx-small;
-        padding: 6px;
+        padding: 8px;
         text-align: center;
     }
     .services img{
-        width: 50%;
+        width: 100%;
+        height: 200px;
+    }
+    .services h5{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        color: darkslategrey;
+    }
+    .desktop_width p{
+        font-size: small;
+        text-align: center;
+        margin: 4%;
     }
 }
 
@@ -142,6 +154,9 @@ div{
     /* Services */
     .custom_tab{
         width: 50%;
+    }
+    .tab{
+        width: 100%;
     }
     .services p{
         font-size: medium;
