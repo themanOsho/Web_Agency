@@ -34,6 +34,7 @@ div{
     }
     .slide-container h2{
         font-weight: 900;
+        font-size: small;
     }
 }
 
@@ -48,6 +49,7 @@ div{
     }
     .slide-container h2{
         font-weight: 900;
+        font-size: large;
     }
 }
 
