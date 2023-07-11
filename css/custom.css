@@ -36,6 +36,41 @@ div{
         font-weight: 900;
         font-size: large;
     }
+    /* About */
+    #about {
+        width: 100%;
+        margin: auto;
+    }
+    .about .header{
+        width: 100%;
+        margin: auto;
+        background-color: chocolate;
+    }
+    .smartphone_half{
+        width: 100%;
+        padding: 15px;
+    }
+    .about h3{
+        font-family: 'Marck Script', cursive;;
+        color: aliceblue;
+    }
+    .about img{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .about h4{
+        text-align: center;
+        font-family: 'Caprasimo', cursive;
+        color: darkslategray;
+    }
+    .about p{
+        font-size: x-small;
+        text-align: justify;
+    }
+    .about button{
+        margin-left: 70%;
+        font-size: x-small;
+    }
 }
 
 /* Custom display on Tablets */
@@ -51,6 +86,41 @@ div{
         font-weight: 900;
         font-size: larger;
     }
+    /* About */
+    #about {
+        width: 90%;
+        margin: auto;
+    }
+    .about .header{
+        width: 90%;
+        margin: auto;
+        background-color: chocolate;
+    }
+    .tab_half{
+        width: 100%;
+        padding: 15px;
+    }
+    .about h3{
+        font-family: 'Marck Script', cursive;;
+        color: aliceblue;
+    }
+    .about img{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .about h4{
+        text-align: center;
+        font-family: 'Caprasimo', cursive;
+        color: darkslategray;
+    }
+    .about p{
+        font-size: small;
+        text-align: justify;
+    }
+    .about button{
+        margin-left: 70%;
+        font-size: small;
+    }
 }
 
 /* Custom display on Desktop */
@@ -64,5 +134,23 @@ div{
     }
     .slide-container h2{
         font-weight: 900;
+    }
+    /* About */
+    #about {
+        width: 80%;
+        margin: auto;
+    }
+    .about .header{
+        width: 100%;
+        margin: auto;
+        background-color: chocolate;
+    }
+    .about h3{
+        font-family: 'Marck Script', cursive;;
+        color: aliceblue;
+    }
+    .about h4{
+        font-family: 'Caprasimo', cursive;
+        color: darkslategray;
     }
 }
