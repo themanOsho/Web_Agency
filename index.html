@@ -9,6 +9,7 @@
     <link rel="icon" href="#" type="image/x-icon">
     <title>Rubber Reclycling | Agency</title>
     <link rel="stylesheet" href="css/4/w3.css">
+    <link rel="stylesheet" href="css/custom.css">
     <script src="js/w3.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -55,7 +56,7 @@
             </div>
         </div>
     </header>
-    <div style="background-color: chocolate; position: sticky; top: 0;">
+    <div class="sticky">
         <div class="w3-row w3-hide-medium w3-hide-small">
             <div class="w3-container w3-half w3-bar w3-small" style="width: 40%; margin-left: 50%;">
                 <a href="#" class="w3-bar-item w3-btn w3-hover-none" style="width: 25%; color: darkslategray;"><b>Home</b></a>
@@ -100,6 +101,41 @@
             </script>
         </div>
     </div>
+    <!-- Main -->
+    <main>
+        <div>
+            <div class="slide-container slides w3-display-container">
+                <img src="images/tyre3.jpeg" alt="rubber_tyres">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                French Alps
+              </div>
+            </div>
+            <div class="slide-container slides w3-display-container">
+                <img src="images/tyre4.jpeg" alt="rubber_tyres">
+                <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                    French Alps
+              </div>
+            </div>
+        </div>
+        <!-- Script for Slideshow -->
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("slides");
+                for (i = 0; i < x.length; i++) {
+                   x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 5000); // Change image every 5 seconds
+            }
+            </script>
+            
+    </main>
     <br><br><br><br><br>
     <br><br><br><br><br>
     <br><br><br><br><br>
