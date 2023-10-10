@@ -74,7 +74,7 @@ div{
         color: darkslategray;
     }
     .about p{
-        font-size: x-small;
+        font-size: small;
         text-align: justify;
     }
     .about button{
@@ -112,6 +112,9 @@ div{
         font-size: 20px;
     }
     .who-box p {
+        font-size: 13px;
+    }
+    .w3-mobile p {
         font-size: 13px;
     }
 }
