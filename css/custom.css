@@ -111,8 +111,11 @@ div{
     p {
         font-size: 20px;
     }
+    .who-box h6 {
+        font-size: 11px;
+    }
     .who-box p {
-        font-size: 13px;
+        font-size: 10px;
     }
     .w3-mobile p {
         font-size: 13px;
