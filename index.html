@@ -9,12 +9,13 @@
     <meta name="keywords" content="">
     <link rel="icon" href="#" type="image/x-icon">
     <title>Rubber Reclycling | Agency</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="css/4/w3.css">
     <link rel="stylesheet" href="css/custom.css">
     <script src="js/w3.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +25,281 @@
 </head>
 
 <body class="w3-white">
+    <header class="w3-container" style="background-color: darkslategray;">
+        <div class="w3-row-padding w3-text-white">
+            <div class="w3-half w3-wide">
+                <h2
+                    style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                    <b>RVN</b>
+                </h2>
+            </div>
+            <div class="w3-half w3-bar w3-padding-large w3-right w3-hide-medium w3-hide-small"
+                style="width: fit-content;">
+                <a href="#" class="w3-bar-item"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="w3-bar-item"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </header>
+    <div class="sticky" style="background-color: chocolate;">
+        <div class="w3-row w3-hide-medium w3-hide-small">
+            <div class="w3-container w3-half w3-bar w3-small w3-text-white" style="width: 40%; margin-left: 50%;">
+                <a href="#" class="w3-bar-item w3-btn w3-hover-none"
+                    style="width: 25%;"><b>Home</b></a>
+                <a href="#about" class="w3-bar-item w3-btn w3-hover-none"
+                    style="width: 25%;"><b>About</b></a>
+                <a href="#" class="w3-bar-item w3-btn w3-hover-none"
+                    style="width: 25%;"><b>Catelogue</b></a>
+                <a href="#" class="w3-bar-item w3-btn w3-hover-none"
+                    style="width: 25%;"><b>Contact</b></a>
+            </div>
+            <div class="w3-half w3-padding w3-right" style="width: 10%;">
+                <i class="fa fa-search" style="color: darkslategray;"></i>
+            </div>
+        </div>
+        <div class="w3-container w3-row w3-padding w3-hide-large">
+            <div class="w3-half" style="width: fit-content;">
+                <button class="w3-button w3-xlarge w3-hover-none w3-hover-text-teal" style="color: darkslategray;"
+                    onclick="openRightMenu()"><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <div class="w3-half w3-right" style="width: fit-content;">
+                <i class="fa fa-search w3-margin" style="color: darkslategray;"></i>
+            </div>
+            <!-- Sidebar -->
+            <div class="w3-sidebar w3-bar-block w3-card w3-white w3-animate-opacity w3-small w3-padding-large"
+                style="display:none; width: 100%; height: fit-content; left: 0; top: 65px;" id="rightMenu">
+                <button onclick="closeRightMenu()" class="w3-bar-item w3-white w3-xlarge w3-left-align">
+                    <i class="fa-solid fa-circle-xmark fa-shake w3-hover-none w3-hover-text-teal"
+                        style="color: darkslategray;"></i></button><br><br>
+                <a class="w3-bar-item w3-btn w3-hover-none w3-text-gray" href="#home"><b>Home</b></a>
+                <a class="w3-bar-item w3-btn w3-hover-none w3-text-teal" href="#about"><b>About</b></a>
+                <a class="w3-bar-item w3-btn w3-hover-none w3-text-teal" href="#"><b>Catelogue</b></a>
+                <a class="w3-bar-item w3-btn w3-hover-none w3-text-teal" href="blog.html"><b>Contact</b></a>
+            </div>
+            <!-- Script to open & close sidebar -->
+            <script>
+                // Open & close sidebar
+                function openRightMenu() {
+                    document.getElementById("rightMenu").style.display = "block";
+                }
+                function closeRightMenu() {
+                    document.getElementById("rightMenu").style.display = "none";
+                }
+            </script>
+        </div>
+    </div>
+    <!-- Main -->
+    <div class="w3-display-container">
+        <div class="slide-container slides w3-display-container">
+            <img src="images/tyre3.jpeg" alt="rubber_tyres">
+            <div class="w3-display-left display w3-large w3-container w3-padding-16 w3-text-white w3-animate-opacity">
+                <h2>Lorem ipsum, do<br>lor sit amet consectetur <br> adipisicing elit.</h2>
+                <button
+                    class="w3-btn w3-padding w3-hover-none w3-white w3-card-4 w3-round-xlarge w3-margin w3-animate-zoom"
+                    style="color: chocolate;"><b>More</b></button>
+            </div>
+        </div>
+        <div class="slide-container slides w3-display-container">
+            <img src="images/tyre4.jpeg" alt="rubber_tyres">
+            <div class="w3-display-left display w3-large w3-container w3-padding-16 w3-text-white w3-animate-opacity">
+                <h2>Lorem ipsum, do<br>lor sit amet consectetur <br> adipisicing elit.</h2>
+                <button
+                    class="w3-btn w3-padding w3-hover-none w3-white w3-card-4 w3-round-xlarge w3-margin w3-animate-zoom"
+                    style="color: chocolate;"><b>Discover</b></button>
+            </div>
+        </div>
+        <!-- Script for Slideshow -->
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("slides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 5000); // Change image every 5 seconds
+            }
+        </script>
+        <!-- About -->
+        <div id="about" class="w3-container">
+            <div class="about w3-section">
+                <div class="header w3-container w3-round-xlarge">
+                    <h3 class="w3-wide w3-right">Who We Are</h3>
+                </div>
+                <div class="w3-row w3-mobile">
+                    <div class="w3-half tab_half smartphone_half  w3-padding w3-mobile">
+                        <img src="images/reclycle-removebg-preview.png" alt="">
+                    </div>
+                    <div class="w3-half tab_half smartphone_half w3-mobile">
+                        <h4 class="w3-wide">ABOUT US</h4>
+                        <p class="w3-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+                            iusto recusandae dolor,
+                            ipsa libero, veniam quia blanditiis architecto, commodi aliquam aperiam nemo. <br><br>
+                            Dicta odit nulla labore maxime dolor dignissimos earum, nisi totam, error eum
+                            voluptatibus
+                            commodi. Modi facilis esse quasi quae quo. Odit voluptatem, ratione quae recusandae
+                            molestiae
+                            repellat quasi.</p>
+                        <button class="w3-btn w3-padding w3-margin w3-hover-none w3-card-2 w3-round-large w3-animate-zoom"
+                            style="color: darkslategray;"><b>Read More</b></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About -->
+        <div id="services">
+            <div class="services w3-section">
+                <div class="w3-container" style="background-color: darkslategray;">
+                    <h1 class="w3-center w3-wide w3-text-white"><b>RVN.</b> <span
+                            style="font-family: 'Courier New', Courier, monospace;">RUBBER RECLCYCLING
+                            SERVICES</span></h1>
+                    <p class="w3-text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, dolorem.
+                    </p>
+                </div>
+                <div class="w3-row w3-mobile" style="padding: 5%;">
+                    <div
+                        class="w3-quarter tab custom_tab smartphone_half desktop_width w3-padding w3-mobile w3-round-xlarge w3-white">
+                        <img src="images/reclycle2-removebg-preview.png" alt="rubber_tyres"
+                        class="w3-round-xxlarge w3-card-4 w3-image">
+                        <div class="w3-container">
+                            <h5>LOREM IPSUM DOLOR SIT AMET</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="w3-quarter tab custom_tab smartphone_half desktop_width w3-padding w3-mobile w3-round-xlarge w3-white">
+                        <img src="images/reclycle2-removebg-preview.png" alt="rubber_tyres"
+                        class="w3-round-xxlarge w3-card-4 w3-image">
+                        <div class="w3-container">
+                            <h5>LOREM IPSUM DOLOR SIT AMET</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="w3-quarter tab custom_tab smartphone_half desktop_width w3-padding w3-mobile w3-round-xlarge w3-white">
+                        <img src="images/reclycle2-removebg-preview.png" alt="rubber_tyres"
+                            class="w3-round-xxlarge w3-card-4 w3-image">
+                        <div class="w3-container">
+                            <h5>LOREM IPSUM DOLOR SIT AMET</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="w3-quarter tab custom_tab smartphone_half desktop_width w3-padding w3-mobile w3-round-xlarge w3-white">
+                        <img src="images/reclycle2-removebg-preview.png" alt="rubber_tyres"
+                        class="w3-round-xxlarge w3-card-4 w3-image">
+                        <div class="w3-container">
+                            <h5>LOREM IPSUM DOLOR SIT AMET</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Who We Are -->
+        <div class="w3-container" style="padding: 2%; width: 90%; margin: auto;">
+            <h1 class="w3-xxlarge"><b>WHY CHOOSE US</b></h1>
+            <div class="w3-row" style="padding: 2%;">
+                <div class="w3-col l6 m12 w3-padding-large">
+                    <p class="w3-justify" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum dolorem excepturi
+                        aperiam nobis, repudiandae porro tempora beatae asperiores ullam illo autem eveniet labore quod
+                        voluptatibus sapiente inventore debitis? Repudiandae!</p>
+                    <p class="w3-justify" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum dolorem excepturi
+                        aperiam nobis, repudiandae porro tempora beatae asperiores ullam illo autem eveniet labore quod
+                        voluptatibus sapiente inventore debitis? Repudiandae!</p>
+                </div>
+                <div class="w3-col l6 m12 who-box">
+                    <div class="w3-row w3-padding">
+                        <div class="w3-col l2 m1 s2 w3-round-xlarge w3-center w3-text-white w3-padding-32"
+                            style="background-color: darkslategrey;">
+                            <!-- Why Us Icon-->
+                            <b>I<br>C<br>O<br>N</b>
+                        </div>
+                        <div class="w3-col l10 m11 s10 w3-padding">
+                            <!-- Why Us Content -->
+                            <div class="w3-bottombar w3-padding w3-rightbar w3-border-dark-grey w3-round-xlarge w3-card-4">
+                                <h6>Lorem ipsum dolor sit amet.</h6>
+                                <p style="color: chocolate">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-row w3-padding">
+                        <div class="w3-col l2 m1 s2 w3-round-xlarge w3-center w3-text-white w3-padding-32"
+                            style="background-color: darkslategrey;">
+                            <!-- Why Us Icon-->
+                            <b>I<br>C<br>O<br>N</b>
+                        </div>
+                        <div class="w3-col l10 m11 s10 w3-padding">
+                            <!-- Why Us Content -->
+                            <div class="w3-bottombar w3-padding w3-rightbar w3-border-dark-grey w3-round-xlarge w3-card-4">
+                                <h6>Lorem ipsum dolor sit amet.</h6>
+                                <p style="color: chocolate">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="w3-center w3-text-white w3-padding-64" style="background-color: chocolate; font-family: poppins;">
+            <h1>START MANUFACTURING NOW</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus enim odio dolore? Inventore,
+                corporis fuga.</p>
+                <i class="fa-solid fa-arrow-down-long"></i> <br>
+            <button style="background-color: darkslategray;"
+                class="w3-btn w3-hover-none w3-round-xxlarge w3-padding-large w3-large w3-margin w3-card-4">CONTACT
+                US NOW</button>
+        </section>
+        <footer class="w3-text-white" style="background-color: darkslategray;">
+                <div class="w3-row w3-padding-32">
+                    <div class="w3-col l4 m6 s12 w3-small w3-mobile w3-padding-large">
+                        <h2 class="w3-wide"
+                            style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                            <b>RVN</b>
+                        </h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, corporis. 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, corporis.</p>
+                    </div>
+                    <div class="w3-col l2 m6 s12 w3-mobile w3-padding-large">
+                        <h4><b>QUICK LINKS</b></h4>
+                        <div class="w3-bar-block">
+                            <a class="w3-bar-item w3-btn w3-hover-none" href="Home"><i class="fa fa-home"></i> Home</a>
+                            <a class="w3-bar-item w3-btn w3-hover-none" href="About"><i class="fa fa-user"></i>
+                                About</a>
+                            <a class="w3-bar-item w3-btn w3-hover-none" href="Catelogue"><i class="fa-regular fa-floppy-disk"></i>
+                                Catelogue</a>
+                            <a class="w3-bar-item w3-btn w3-hover-none" href="Contact"><i class="fa-solid fa-id-card"></i>
+                                Contact</a>
+                        </div>
+                    </div>
+                    <div class="w3-col l2 m6 s12 w3-mobile w3-padding-large">
+                        <h4><b>TAGS</b></h4>
+                        <div class="w3-bar w3-small" style="font-weight: 900;">
+                            <a class="w3-bar-item w3-btn w3-card-4" href="Home">Manufacturing</a>
+                            <a class="w3-bar-item w3-btn w3-card-4" href="About">Reclycling</a>
+                            <a class="w3-bar-item w3-btn w3-card-4" href="Catelogue">Archives</a>
+                            <a class="w3-bar-item w3-btn w3-card-4" href="Contact">Tyres</a>
+                            <a class="w3-bar-item w3-btn w3-card-4" href="Contact">Store</a>
+                            <a class="w3-bar-item w3-btn w3-card-4" href="Contact">Rubber</a>
+                        </div>
+                    </div>
+                    <div class="w3-col l4 m12 s12 w3-padding">
+                        <h3>Subscribe to our news letter</h3>
+                        <input type="text" class="w3-input w3-padding w3-round-large">
+                        <button class="w3-btn w3-margin w3-card-4 w3-round-large" style="background-color: chocolate;">Subscribe!</button>
+                    </div>
+                </div>
+                <section class="w3-container w3-center" style="background-color: rgb(33, 54, 54);">
+                    <h6>Rubber Company © 2023 By <a href="https://themanosho.netlify.app" style="color: blue;">Joshua Osho</a></h6>
+                </section>
+            </footer>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4RKG8817PW"></script>
     <script>
@@ -46,226 +322,6 @@
         });
     </script>
     <!-- End Script -->
-    <header class="w3-container" style="background-color: darkslategray;">
-        <div class="w3-row-padding w3-text-white">
-            <div class="w3-half w3-wide">
-                <h2
-                    style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-                    <b>RVN</b>
-                </h2>
-            </div>
-            <div class="w3-half w3-bar w3-padding-large w3-right w3-hide-medium w3-hide-small"
-                style="width: fit-content;">
-                <a href="#" class="w3-bar-item"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#" class="w3-bar-item"><i class="fa-brands fa-twitter"></i></a>
-            </div>
-        </div>
-    </header>
-    <div class="sticky" style="background-color: chocolate;">
-        <div class="w3-row w3-hide-medium w3-hide-small">
-            <div class="w3-container w3-half w3-bar w3-small" style="width: 40%; margin-left: 50%;">
-                <a href="#" class="w3-bar-item w3-btn w3-hover-none"
-                    style="width: 25%; color: darkslategray;"><b>Home</b></a>
-                <a href="#" class="w3-bar-item w3-btn w3-hover-none"
-                    style="width: 25%; color: darkslategray;"><b>About</b></a>
-                <a href="#" class="w3-bar-item w3-btn w3-hover-none"
-                    style="width: 25%; color: darkslategray;"><b>Catelogue</b></a>
-                <a href="#" class="w3-bar-item w3-btn w3-hover-none"
-                    style="width: 25%; color: darkslategray;"><b>Contact</b></a>
-            </div>
-            <div class="w3-half w3-padding w3-right" style="width: 10%;">
-                <i class="fa fa-search" style="color: darkslategray;"></i>
-            </div>
-        </div>
-        <div class="w3-container w3-row w3-padding w3-hide-large">
-            <div class="w3-half" style="width: fit-content;">
-                <button class="w3-button w3-xlarge w3-hover-none w3-hover-text-teal" style="color: darkslategray;"
-                    onclick="openRightMenu()"><i class="fa-solid fa-bars"></i></button>
-            </div>
-            <div class="w3-half w3-right" style="width: fit-content;">
-                <i class="fa fa-search w3-margin" style="color: darkslategray;"></i>
-            </div>
-            <!-- Sidebar -->
-            <div class="w3-sidebar w3-bar-block w3-card w3-white w3-animate-opacity w3-small w3-padding-large"
-                style="display:none; width: 100%; height: fit-content; left: 0;" id="rightMenu">
-                <button onclick="closeRightMenu()" class="w3-bar-item w3-white w3-xlarge w3-left-align">
-                    <i class="fa-solid fa-circle-xmark fa-shake w3-hover-none w3-hover-text-teal"
-                        style="color: darkslategray;"></i></button><br><br>
-                <a class="w3-bar-item w3-btn w3-hover-none w3-text-gray" href="#home"><b>Home</b></a>
-                <a class="w3-bar-item w3-btn w3-hover-none w3-text-teal" href="#"><b>About</b></a>
-                <a class="w3-bar-item w3-btn w3-hover-none w3-text-teal" href="#"><b>Catelogue</b></a>
-                <a class="w3-bar-item w3-btn w3-hover-none w3-text-teal" href="blog.html"><b>Contact</b></a>
-            </div>
-            <!-- Script to open & close sidebar -->
-            <script>
-                // Open & close sidebar
-                function openRightMenu() {
-                    document.getElementById("rightMenu").style.display = "block";
-                }
-                function closeRightMenu() {
-                    document.getElementById("rightMenu").style.display = "none";
-                }
-            </script>
-        </div>
-    </div>
-    <!-- Main -->
-    <main>
-        <div class="w3-display-container">
-            <div class="slide-container slides w3-display-container">
-                <img src="images/tyre3.jpeg" alt="rubber_tyres">
-                <div
-                    class="w3-display-left display w3-large w3-container w3-padding-16 w3-text-white w3-animate-opacity">
-                    <h2>Lorem ipsum, do<br>lor sit amet consectetur <br> adipisicing elit.</h2>
-                    <button
-                        class="w3-btn w3-padding w3-hover-none w3-white w3-card-4 w3-round-xlarge w3-margin w3-animate-zoom"
-                        style="color: chocolate;"><b>More</b></button>
-                </div>
-            </div>
-            <div class="slide-container slides w3-display-container">
-                <img src="images/tyre4.jpeg" alt="rubber_tyres">
-                <div
-                    class="w3-display-left display w3-large w3-container w3-padding-16 w3-text-white w3-animate-opacity">
-                    <h2>Lorem ipsum, do<br>lor sit amet consectetur <br> adipisicing elit.</h2>
-                    <button
-                        class="w3-btn w3-padding w3-hover-none w3-white w3-card-4 w3-round-xlarge w3-margin w3-animate-zoom"
-                        style="color: chocolate;"><b>Discover</b></button>
-                </div>
-            </div>
-            <!-- Script for Slideshow -->
-            <script>
-                var myIndex = 0;
-                carousel();
-
-                function carousel() {
-                    var i;
-                    var x = document.getElementsByClassName("slides");
-                    for (i = 0; i < x.length; i++) {
-                        x[i].style.display = "none";
-                    }
-                    myIndex++;
-                    if (myIndex > x.length) { myIndex = 1 }
-                    x[myIndex - 1].style.display = "block";
-                    setTimeout(carousel, 5000); // Change image every 5 seconds
-                }
-            </script>
-            <!-- About -->
-            <div id="about" class="w3-container">
-                <div class="about w3-section">
-                    <div class="header w3-container w3-round-xlarge">
-                        <h3 class="w3-wide w3-right">Who We Are</h3>
-                    </div>
-                    <div class="w3-row w3-mobile">
-                        <div class="w3-half tab_half smartphone_half  w3-padding w3-mobile">
-                            <img src="images/reclycle-removebg-preview.png" alt="">
-                        </div>
-                        <div class="w3-half tab_half smartphone_half w3-mobile">
-                            <h4 class="w3-wide">ABOUT US</h4>
-                            <p class="w3-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-                                iusto recusandae dolor,
-                                ipsa libero, veniam quia blanditiis architecto, commodi aliquam aperiam nemo. <br><br>
-                                Dicta odit nulla labore maxime dolor dignissimos earum, nisi totam, error eum
-                                voluptatibus
-                                commodi. Modi facilis esse quasi quae quo. Odit voluptatem, ratione quae recusandae
-                                molestiae
-                                repellat quasi.</p>
-                            <button class="w3-btn w3-padding w3-hover-none w3-card-4 w3-round-large w3-animate-zoom"
-                                style="color: darkslategray;"><b>Read More</b></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- About -->
-            <div id="services">
-                <div class="services w3-section">
-                    <div class="w3-container" style="background-color: darkslategray;">
-                        <h1 class="w3-center w3-wide w3-text-white"><b>RVN.</b> <span
-                                style="font-family: 'Courier New', Courier, monospace;">RUBBER RECLCYCLING
-                                SERVICES</span></h1>
-                        <p class="w3-text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, dolorem.
-                        </p>
-                    </div>
-                    <div class="w3-row w3-mobile" style="padding: 5%;">
-                        <div
-                            class="w3-quarter tab custom_tab smartphone_half desktop_width w3-padding w3-mobile w3-round-xlarge w3-white">
-                            <img src="images/reclycle2-removebg-preview.png" alt="rubber_tyres"
-                                class="w3-round-xxlarge  w3-card-4">
-                            <div class="w3-container">
-                                <h5>LOREM IPSUM DOLOR SIT AMET</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div
-                            class="w3-quarter tab custom_tab smartphone_half desktop_width w3-padding w3-mobile w3-round-xlarge w3-white">
-                            <img src="images/reclycle2-removebg-preview.png" alt="rubber_tyres"
-                                class="w3-round-xxlarge w3-card-4">
-                            <div class="w3-container">
-                                <h5>LOREM IPSUM DOLOR SIT AMET</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div
-                            class="w3-quarter tab custom_tab smartphone_half desktop_width w3-padding w3-mobile w3-round-xlarge w3-white">
-                            <img src="images/reclycle2-removebg-preview.png" alt="rubber_tyres"
-                                class="w3-round-xxlarge w3-card-4">
-                            <div class="w3-container">
-                                <h5>LOREM IPSUM DOLOR SIT AMET</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div
-                            class="w3-quarter tab custom_tab smartphone_half desktop_width w3-padding w3-mobile w3-round-xlarge w3-white">
-                            <img src="images/reclycle2-removebg-preview.png" alt="rubber_tyres"
-                                class="w3-round-xxlarge w3-card-4">
-                            <div class="w3-container">
-                                <h5>LOREM IPSUM DOLOR SIT AMET</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Who We Are -->
-            <div class="w3-container" style="padding: 2%; width: 90%; margin: auto;">
-                <h2><b>WHY US</b></h2>
-                <div class="w3-row" style="padding: 2%;">
-                    <div class="w3-half w3-mobile">
-                        <div style="display: flex;">
-                            <div class="w3-round-xlarge w3-center w3-text-white"
-                                style="background-color: darkslategrey; width: 20%; padding: 8%;">
-                                <!-- Why Us Icon-->
-                                <b>I<br>C<br>O<br>N</b>
-                            </div>
-                            <div style="width: 80%; padding: 9%;">
-                                <!-- Why Us Content -->
-                                <div class="w3-bottombar w3-rightbar w3-border-dark-grey w3-round-xlarge">
-                                    <h6>Lorem ipsum dolor sit amet.</h6>
-                                    <p style="color: chocolate">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w3-half w3-mobile">
-                        <div style="display: flex;">
-                            <div class="w3-round-xlarge w3-center w3-text-white"
-                                style="background-color: darkslategrey; width: 20%; padding: 8%;">
-                                <!-- Why Us Icon-->
-                                <b>I<br>C<br>O<br>N</b>
-                            </div>
-                            <div style="width: 80%; padding: 9%;">
-                                <!-- Why Us Content -->
-                                <div class="w3-bottombar w3-rightbar w3-border-dark-grey w3-round-xlarge">
-                                    <h6>Lorem ipsum dolor sit amet.</h6>
-                                    <p style="color: chocolate">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </main>
-
 </body>
 
 </html>
