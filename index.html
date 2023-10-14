@@ -10,7 +10,6 @@
     <link rel="icon" href="#" type="image/x-icon">
     <title>Rubber Reclycling | Agency</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
-    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="css/4/w3.css">
     <link rel="stylesheet" href="css/custom.css">
     <script src="js/w3.js"></script>
@@ -47,9 +46,9 @@
                     style="width: 25%;"><b>Home</b></a>
                 <a href="#about" class="w3-bar-item w3-btn w3-hover-none"
                     style="width: 25%;"><b>About</b></a>
-                <a href="#" class="w3-bar-item w3-btn w3-hover-none"
+                <a href="#catelogue" class="w3-bar-item w3-btn w3-hover-none"
                     style="width: 25%;"><b>Catelogue</b></a>
-                <a href="#" class="w3-bar-item w3-btn w3-hover-none"
+                <a href="#contact" class="w3-bar-item w3-btn w3-hover-none"
                     style="width: 25%;"><b>Contact</b></a>
             </div>
             <div class="w3-half w3-padding w3-right" style="width: 10%;">
@@ -72,8 +71,8 @@
                         style="color: darkslategray;"></i></button><br><br>
                 <a class="w3-bar-item w3-btn w3-hover-none w3-text-gray" href="#home"><b>Home</b></a>
                 <a class="w3-bar-item w3-btn w3-hover-none w3-text-teal" href="#about"><b>About</b></a>
-                <a class="w3-bar-item w3-btn w3-hover-none w3-text-teal" href="#"><b>Catelogue</b></a>
-                <a class="w3-bar-item w3-btn w3-hover-none w3-text-teal" href="blog.html"><b>Contact</b></a>
+                <a class="w3-bar-item w3-btn w3-hover-none w3-text-teal" href="#catelogue"><b>Catelogue</b></a>
+                <a class="w3-bar-item w3-btn w3-hover-none w3-text-teal" href="#contact"><b>Contact</b></a>
             </div>
             <!-- Script to open & close sidebar -->
             <script>
@@ -107,36 +106,19 @@
                     style="color: chocolate;"><b>Discover</b></button>
             </div>
         </div>
-        <!-- Script for Slideshow -->
-        <script>
-            var myIndex = 0;
-            carousel();
-
-            function carousel() {
-                var i;
-                var x = document.getElementsByClassName("slides");
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                myIndex++;
-                if (myIndex > x.length) { myIndex = 1 }
-                x[myIndex - 1].style.display = "block";
-                setTimeout(carousel, 5000); // Change image every 5 seconds
-            }
-        </script>
         <!-- About -->
-        <div id="about" class="w3-container">
+        <div id="about" class="w3-container w3-padding-64">
             <div class="about w3-section">
                 <div class="header w3-container w3-round-xlarge">
                     <h3 class="w3-wide w3-right">Who We Are</h3>
                 </div>
-                <div class="w3-row w3-mobile">
+                <div class="w3-row w3-mobile w3-padding-64">
                     <div class="w3-half tab_half smartphone_half  w3-padding w3-mobile">
                         <img src="images/reclycle-removebg-preview.png" alt="">
                     </div>
                     <div class="w3-half tab_half smartphone_half w3-mobile">
                         <h4 class="w3-wide">ABOUT US</h4>
-                        <p class="w3-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+                        <p class="w3-text-gray w3-padding-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
                             iusto recusandae dolor,
                             ipsa libero, veniam quia blanditiis architecto, commodi aliquam aperiam nemo. <br><br>
                             Dicta odit nulla labore maxime dolor dignissimos earum, nisi totam, error eum
@@ -145,42 +127,23 @@
                             molestiae
                             repellat quasi.</p>
                         <button class="w3-btn w3-padding w3-margin w3-hover-none w3-card-2 w3-round-large w3-animate-zoom"
-                            style="color: darkslategray;"><b>Read More</b></button>
+                            style="color: darkslategray;"><b>More</b></button>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- About -->
-        <div id="services">
+        <!-- Catelogue -->
+        <div id="catelogue">
             <div class="services w3-section">
-                <div class="w3-container" style="background-color: darkslategray;">
+                <div class="w3-container w3-padding-64" style="background-color: darkslategray;">
                     <h1 class="w3-center w3-wide w3-text-white"><b>RVN.</b> <span
                             style="font-family: 'Courier New', Courier, monospace;">RUBBER RECLCYCLING
                             SERVICES</span></h1>
-                    <p class="w3-text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, dolorem.
+                    <p class="w3-text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, dolorem Lorem ipsum dolor sit amet.
                     </p>
                 </div>
-                <div class="w3-row w3-mobile" style="padding: 5%;">
-                    <div
-                        class="w3-quarter tab custom_tab smartphone_half desktop_width w3-padding w3-mobile w3-round-xlarge w3-white">
-                        <img src="images/reclycle2-removebg-preview.png" alt="rubber_tyres"
-                        class="w3-round-xxlarge w3-card-4 w3-image">
-                        <div class="w3-container">
-                            <h5>LOREM IPSUM DOLOR SIT AMET</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
-                    <div
-                        class="w3-quarter tab custom_tab smartphone_half desktop_width w3-padding w3-mobile w3-round-xlarge w3-white">
-                        <img src="images/reclycle2-removebg-preview.png" alt="rubber_tyres"
-                        class="w3-round-xxlarge w3-card-4 w3-image">
-                        <div class="w3-container">
-                            <h5>LOREM IPSUM DOLOR SIT AMET</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
-                    <div
-                        class="w3-quarter tab custom_tab smartphone_half desktop_width w3-padding w3-mobile w3-round-xlarge w3-white">
+                <div class="w3-row-padding w3-padding-64 w3-padding-large">
+                    <div class="w3-col l3 m6 s12">
                         <img src="images/reclycle2-removebg-preview.png" alt="rubber_tyres"
                             class="w3-round-xxlarge w3-card-4 w3-image">
                         <div class="w3-container">
@@ -188,10 +151,25 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
-                    <div
-                        class="w3-quarter tab custom_tab smartphone_half desktop_width w3-padding w3-mobile w3-round-xlarge w3-white">
+                    <div class="w3-col l3 m6 s12">
                         <img src="images/reclycle2-removebg-preview.png" alt="rubber_tyres"
-                        class="w3-round-xxlarge w3-card-4 w3-image">
+                            class="w3-round-xxlarge w3-card-4 w3-image">
+                        <div class="w3-container">
+                            <h5>LOREM IPSUM DOLOR SIT AMET</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="w3-col l3 m6 s12">
+                        <img src="images/reclycle2-removebg-preview.png" alt="rubber_tyres"
+                            class="w3-round-xxlarge w3-card-4 w3-image">
+                        <div class="w3-container">
+                            <h5>LOREM IPSUM DOLOR SIT AMET</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="w3-col l3 m6 s12">
+                        <img src="images/reclycle2-removebg-preview.png" alt="rubber_tyres"
+                            class="w3-round-xxlarge w3-card-4 w3-image">
                         <div class="w3-container">
                             <h5>LOREM IPSUM DOLOR SIT AMET</h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -248,24 +226,24 @@
                 </div>
             </div>
         </div>
-        <section class="w3-row w3-center w3-text-white" style="background-color: chocolate; font-family: poppins;">
-            <div class="w3-col l7 m12 s12 w3-padding-64 w3-border">
-                <div class="w3-padding-64 w3-border">
-                    <div class="w3-padding-64 w3-border">
+        <section id="contact" class="w3-row w3-center w3-padding-64 w3-padding-large w3-text-white" style="font-family: poppins;">
+            <div class="w3-col l7 m12 s12 contact-box-small">
+                <div class="w3-padding-64 contact-box-left" style="background-color: #d2691e;">
+                    <div class="contact-box-small-2">
                         <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">START MANUFACTURING NOW</h1>
-                        <h2 style="font-family: poppins;"><span style="font-family: poppins; color: #2f4f4f; font-weight: bolder;">Need help<i class="fa-solid fa-question"></i></span> Contact our award winning support team <span style="color: #2f4f4f; font-weight: bold;">24/7</span></h2>
+                        <h3 style="font-family: poppins;"><span style="font-family: poppins; color: #2f4f4f; font-weight: bolder;">Need help<i class="fa-solid fa-question"></i></span> Contact our award winning support team <span style="color: #2f4f4f; font-weight: bold;">24/7</span></h3>
                     </div>
                 </div>
             </div>
             <div class="w3-col l5 m12 s12">
-                <img src="images/web-design-square.png" class="w3-image" alt="">
+                <img src="images/web-design-square.png" class="w3-image contact-box-img" alt="">
             </div>
         </section>
         <footer class="w3-text-white" style="background-color: #2f4f4f;">
                 <div class="w3-row w3-padding-64 w3-padding-large">
                     <div class="w3-col l4 m12 s12 w3-small w3-mobile w3-padding-large">
                         <h2 class="w3-wide"
-                            style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                            style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #d2691e;">
                             <b>RVN</b>
                         </h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, corporis. 
@@ -317,6 +295,23 @@
     </script>
     <script src="https://kit.fontawesome.com/c75a29d236.js" crossorigin="anonymous">
         // Fa fa Icons
+    </script>
+    <!-- Script for Slideshow -->
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 5000); // Change image every 5 seconds
+        }
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js">
         // Script to activate animations on Scroll, data-aos(animation on scroll)="value" 
